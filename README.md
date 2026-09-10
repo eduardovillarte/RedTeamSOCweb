@@ -9,7 +9,7 @@ Este proyecto utiliza un frontend en React (Vite) y un backend en Node.js que se
 - **Docker y Docker Compose** (Recomendado para producción)
 - **Node.js** (v18 o superior) si deseas correrlo en modo desarrollo.
 - **Máquina con Kali Linux** con el servicio SSH activo y accesible desde la red.
-- Las siguientes herramientas deben estar instaladas en Kali Linux: `nmap`, `sqlmap`, `svmap` (sipvicious), `nikto`, `whatweb`, `whois`, `subfinder`, `enum4linux`, `nxc` (netexec), `theHarvester`.
+- Las siguientes herramientas deben estar instaladas en Kali Linux(dentro de la aplicacion hay un boton de instalacion automatica): `nmap`, `sqlmap`, `svmap` (sipvicious), `nikto`, `whatweb`, `whois`, `subfinder`, `enum4linux`, `nxc` (netexec), `theHarvester`.
 
 ---
 
