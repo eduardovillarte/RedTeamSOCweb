@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  socweb:
+    build: .
+    container_name: redteam-socweb
+    ports:
+      - "3001:3001"
+    volumes:
+      # Montar el directorio de datos para persistencia (base de datos, configuración)
+      - ./data:/app/data
+    restart: unless-stopped
